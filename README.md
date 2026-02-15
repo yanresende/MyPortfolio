@@ -1,4 +1,4 @@
-#  👨‍💻 Portfólio Pessoal - João Marcelo
+#  👨‍💻 Portfólio Pessoal - Yan Resende
 
  **Clique aqui:** [Link do Portfólio](https://yanresendes.vercel.app)
 
@@ -19,7 +19,7 @@ Certifique-se de ter instalado em sua máquina:
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/yanresende/MyPortfolio.git
-   cd portfolio
+   cd MyPortfolio
    ```
 
 2. **Instale as dependências**
@@ -67,7 +67,7 @@ Certifique-se de ter instalado em sua máquina:
 ## 📁 Estrutura Detalhada do Projeto
 
 ```
-portfolio/
+MyPortfolio/
 ├── public/                          # Arquivos estáticos
 │   ├── logos/                       # Imagens de logos e perfil
 │   ├── projects/                    # Imagens dos projetos
