@@ -28,7 +28,7 @@ const translations = {
 
         // Hero Section
         'hero.badge': 'Olá, eu sou',
-        'hero.description': 'Estudante de Engenharia de Software na PUC Minas e desenvolvedor full-stack na M2C Digital. Apaixonado por programação, otimização e design de aplicações web modernas. Buscando sempre aprender e compartilhar conhecimento.',
+        'hero.description': 'Estudante de Engenharia de Software na PUC Minas e desenvolvedor full-stack. Apaixonado por programação, otimização e design de aplicações web modernas. Buscando sempre aprender e compartilhar conhecimento.',
         'hero.view.projects': 'Ver projetos',
         'hero.contact': 'Entrar em contato',
         'hero.puc.course': 'Engenharia de Software',
