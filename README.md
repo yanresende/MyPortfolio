@@ -1,6 +1,6 @@
 #  👨‍💻 Portfólio Pessoal - João Marcelo
 
- **Clique aqui:** [Link do Portfólio](https://joaomarcelocpa.vercel.app)
+ **Clique aqui:** [Link do Portfólio](https://yanresendes.vercel.app)
 
 ## 📋 Sobre o Projeto
 
@@ -18,7 +18,7 @@ Certifique-se de ter instalado em sua máquina:
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/joaomarcelocpa/portfolio.git
+   git clone https://github.com/yanresende/MyPortfolio.git
    cd portfolio
    ```
 
@@ -173,10 +173,10 @@ Formulário de contato funcional e links diretos para redes sociais
 
 ## 🌐 Redes Sociais
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/joaomarcelocpa/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaomarcelocpa/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/joaomarcelocpa/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joaomarcelocpa0303@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/yanres13/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yanresendebr/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/yanresende/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yan.resende.pro@gmail.com)
 
 ## 🙋‍♂️ Sobre Mim
 
