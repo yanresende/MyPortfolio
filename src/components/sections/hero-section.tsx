@@ -69,13 +69,13 @@ export default function HeroSection({ sectionRef }: HeroSectionProps) {
                                     <div className="text-white/60">{t('hero.puc.course')}</div>
                                 </div>
                             </div>
-                            <div className="flex items-center gap-2">
+                            {/*<div className="flex items-center gap-2">
                                 <Image src={m2cDigitalLogo} alt="M2C Digital" width={36} height={36} className="..." />
                                 <div className="text-sm text-white/80">
                                     <div className="font-medium">M2C Digital</div>
                                     <div className="text-white/60">{t('hero.m2c.role')}</div>
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                     {/* Container da imagem com responsividade ajustada */}

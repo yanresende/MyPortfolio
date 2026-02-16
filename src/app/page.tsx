@@ -12,7 +12,7 @@ import StarsCanvas from "@/components/layout/stars-canvas"
 import BackToTop from "@/components/layout/back-to-top"
 import HeroSection from "@/components/sections/hero-section"
 import ProjectsSection from "@/components/sections/projects-section"
-import VideosSection from "@/components/sections/videos-section"
+{/*import VideosSection from "@/components/sections/videos-section"*/}
 import ArticlesSection from "@/components/sections/articles-section"
 import ExperienceSection from "@/components/sections/experience-section"
 import ContactSection from "@/components/sections/contact-section"
@@ -102,7 +102,7 @@ export default function Page() {
             {/* Sections */}
             <HeroSection sectionRef={refs.sobre?.ref as any} />
             <ProjectsSection sectionRef={refs.projetos?.ref as any} />
-            <VideosSection sectionRef={refs.videos?.ref as any} />
+            {/*<VideosSection sectionRef={refs.videos?.ref as any} />*/}
             <ArticlesSection sectionRef={refs.artigos?.ref as any} />
             <ExperienceSection sectionRef={refs.experiencia?.ref as any} />
             <ContactSection sectionRef={refs.contato?.ref as any} />
