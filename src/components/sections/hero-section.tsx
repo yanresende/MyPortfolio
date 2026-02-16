@@ -9,6 +9,7 @@ import profilePhoto from '../../../public/logos/profile-picture.jpeg'
 import Section from "@/components/layout/section"
 import Reveal from "@/components/layout/reveal"
 import { useLanguage } from "@/contexts/language-context"
+import { useEffect, useState } from "react"
 
 interface HeroSectionProps {
     sectionRef: React.RefObject<HTMLElement>
@@ -16,6 +17,40 @@ interface HeroSectionProps {
 
 export default function HeroSection({ sectionRef }: HeroSectionProps) {
     const { t } = useLanguage()
+    const [text, setText] = useState("")
+    const [isDeleting, setIsDeleting] = useState(false)
+    const [wordIndex, setWordIndex] = useState(0)
+
+    const words = [t('efect.typewriter.1'), t('efect.typewriter.2')]
+
+    useEffect(() => {
+        const currentWord = words[wordIndex % words.length]
+
+        const type = () => {
+            setText((prev) => {
+                if (isDeleting) {
+                    return currentWord.substring(0, prev.length - 1)
+                } else {
+                    return currentWord.substring(0, prev.length + 1)
+                }
+            })
+        }
+
+        let speed = isDeleting ? 50 : 100
+
+        if (!isDeleting && text === currentWord) {
+            speed = 2000
+            const timer = setTimeout(() => setIsDeleting(true), speed)
+            return () => clearTimeout(timer)
+        } else if (isDeleting && text === "") {
+            setIsDeleting(false)
+            setWordIndex((prev) => prev + 1)
+            speed = 500
+        }
+
+        const timer = setTimeout(type, speed)
+        return () => clearTimeout(timer)
+    }, [text, isDeleting, wordIndex])
 
     return (
         <Section id="sobre" ref={sectionRef} className="relative">
@@ -29,6 +64,10 @@ export default function HeroSection({ sectionRef }: HeroSectionProps) {
                         <h1 className="text-6xl sm:text-7xl font-bold tracking-tight title-poppins">
                             Yan Araújo Resende
                         </h1>
+                        <div className="h-8 text-2xl font-semibold text-violet-400">
+                            {text}
+                            <span className="animate-pulse">|</span>
+                        </div>
                         <p className="text-base leading-relaxed text-white/80">
                             {t('hero.description')}
                         </p>

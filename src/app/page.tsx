@@ -12,6 +12,7 @@ import StarsCanvas from "@/components/layout/stars-canvas"
 import BackToTop from "@/components/layout/back-to-top"
 import HeroSection from "@/components/sections/hero-section"
 import ProjectsSection from "@/components/sections/projects-section"
+import CurriculoSection from "@/components/sections/curriculo-section"
 {/*import VideosSection from "@/components/sections/videos-section"*/}
 {/*import ArticlesSection from "@/components/sections/articles-section"*/}
 import ExperienceSection from "@/components/sections/experience-section"
@@ -22,6 +23,7 @@ const sections = [
     { id: "sobre", label: "Sobre" },
     { id: "projetos", label: "Projetos" },
     { id: "experiencia", label: "Experiência" },
+    { id: "curriculo", label: "Currículo" },
     { id: "contato", label: "Contato" },
 ] as const
 
@@ -103,6 +105,7 @@ export default function Page() {
             {/*<VideosSection sectionRef={refs.videos?.ref as any} />*/}
             {/*<ArticlesSection sectionRef={refs.artigos?.ref as any} />*/}
             <ExperienceSection sectionRef={refs.experiencia?.ref as any} />
+            <CurriculoSection sectionRef={refs.curriculo?.ref as any} />
             <ContactSection sectionRef={refs.contato?.ref as any} />
 
             <FooterSection />

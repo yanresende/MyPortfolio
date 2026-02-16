@@ -21,6 +21,7 @@ const translations = {
         'nav.videos': 'Vídeos',
         'nav.articles': 'Artigos',
         'nav.experience': 'Experiência',
+        'nav.curriculum': 'Currículo',
         'nav.contact': 'Contato',
         'nav.menu': 'Menu',
         'nav.close': 'Fechar',
@@ -33,6 +34,11 @@ const translations = {
         'hero.contact': 'Entrar em contato',
         'hero.puc.course': 'Engenharia de Software',
         'hero.ebac.role': 'Desenvolvedor FullStack Java',
+        'curriculo.title': 'Currículo',
+        'curriculo.description': 'Visualize ou baixe meu currículo completo.',
+        'curriculo.download': 'Baixar PDF',
+        'efect.typewriter.1': 'Engenheiro de Software',
+        'efect.typewriter.2': 'Full Stack Java',
 
         // Projects Section
         'projects.title': 'Projetos',
@@ -42,11 +48,11 @@ const translations = {
         'projects.technologies': 'Tecnologias',
 
         // Project Details
-        'project.fabiana.description': 'Sistema de Gerenciamento de rotas de entrega com integração Google Maps API.',
-        'project.fabiana.details': 'Sistema completo de gerenciamento de rotas de entrega desenvolvido para a empresa Fabiana Móveis e Eletro. O sistema conta com geração automática de rotas de entrega otimizadas através da API do Google Maps, melhorando a eficiência logística da empresa.',
+        'project.contagem-niver.description': 'Sistema de convite para festa de aniversário com contagem regressiva.',
+        'project.contagem-niver.details': 'Sistema completo de convite para festa de aniversário com contagem regressiva, desenvolvido com tecnologias web fundamentais (HTML, CSS e JavaScript).',
 
-        'project.gnosi.description': 'Plataforma de cursos voltada para compartilhamento de conteúdos de tecnologia.',
-        'project.gnosi.details': 'Plataforma educacional completa para cursos de tecnologia, organizada em módulos e aulas. Sistema robusto desenvolvido com React.js no frontend e Java Spring Boot no backend, proporcionando uma experiência de aprendizado estruturada e intuitiva.',
+        'project.disneyplus-tematica.description': 'Plataforma de cursos voltada para compartilhamento de conteúdos de tecnologia.',
+        'project.disneyplus-tematica.details': 'Plataforma educacional completa para cursos de tecnologia, organizada em módulos e aulas. Sistema robusto desenvolvido com React.js no frontend e Java Spring Boot no backend, proporcionando uma experiência de aprendizado estruturada e intuitiva.',
 
         'project.easytraining.description': 'Sistema de geração de fichas de treino personalizadas e gratuitas.',
         'project.easytraining.details': 'Aplicação web que promove fichas de academia gratuitas e personalizadas. Desenvolvida com tecnologias web fundamentais (HTML, CSS e JavaScript), oferece uma interface intuitiva para criação de treinos personalizados de acordo com as necessidades de cada usuário.',
@@ -76,8 +82,8 @@ const translations = {
         'videos.youtube': 'YouTube',
         'videos.fabiana.title': 'Vídeo de apresentação - Fabiana Móveis',
         'videos.fabiana.description': 'Vídeo de apresentação do projeto Fabiana Móveis, mostrando as funcionalidades principais da aplicação desenvolvida para otimizar as rotas de entrega da empresa.',
-        'videos.gnosi.title': 'Vídeo de apresentação - Gnosi',
-        'videos.gnosi.description': 'Vídeo de apresentação do projeto Gnosi, mostrando as principais funcionalidades do desenvolvimento do software da plataforma de ensino e cursos online gratuita.',
+        'videos.disneyplus-tematica.title': 'Vídeo de apresentação - Disney + Temática',
+        'videos.disneyplus-tematica.description': 'Vídeo de apresentação do projeto Disney + Temática, mostrando as principais funcionalidades do desenvolvimento da landing page temática.',
         'videos.gruposcheilla.title': 'Vídeo de apresentação - Grupo Espírita Scheilla',
         'videos.gruposcheilla.description': 'Vídeo de apresentação do projeto Grupo Espírita Scheilla, detalhando as funcionalidades e o impacto do software desenvolvido para a gestão e promoção do centro espírita.',
 
@@ -140,6 +146,7 @@ const translations = {
         'nav.videos': 'Videos',
         'nav.articles': 'Articles',
         'nav.experience': 'Experience',
+        'nav.curriculum': 'Curriculum',
         'nav.contact': 'Contact',
         'nav.menu': 'Menu',
         'nav.close': 'Close',
@@ -152,6 +159,11 @@ const translations = {
         'hero.contact': 'Get in touch',
         'hero.puc.course': 'Software Engineering',
         'hero.ebac.role': 'FullStack Developer',
+        'curriculo.title': 'Resume',
+        'curriculo.description': 'View or download my full resume.',
+        'curriculo.download': 'Download PDF',
+        'efect.typewriter.1': 'Software Engineer',
+        'efect.typewriter.2': 'Full Stack Java',
 
         // Projects Section
         'projects.title': 'Projects',
@@ -161,11 +173,11 @@ const translations = {
         'projects.technologies': 'Technologies',
 
         // Project Details
-        'project.fabiana.description': 'Delivery route management system with Google Maps API integration.',
-        'project.fabiana.details': 'Complete delivery route management system developed for Fabiana Móveis e Eletro company. The system features automatic generation of optimized delivery routes through Google Maps API, improving the company\'s logistics efficiency.',
+        'project.contagem-niver.description': 'Birthday party invitation system with countdown timer.',
+        'project.contagem-niver.details': 'Complete birthday party invitation system with countdown timer, developed using fundamental web technologies (HTML, CSS, and JavaScript).',
 
-        'project.gnosi.description': 'Course platform focused on sharing technology content.',
-        'project.gnosi.details': 'Complete educational platform for technology courses, organized in modules and classes. Robust system developed with React.js on the frontend and Java Spring Boot on the backend, providing a structured and intuitive learning experience.',
+        'project.disneyplus-tematica.description': 'Landing page theme for Disney +.',
+        'project.disneyplus-tematica.details': 'Complete landing page for a Disney + theme, developed using fundamental web technologies (HTML, CSS and JavaScript).',
 
         'project.easytraining.description': 'Personalized and free workout plan generation system.',
         'project.easytraining.details': 'Web application that provides free and personalized gym workout plans. Developed with fundamental web technologies (HTML, CSS and JavaScript), it offers an intuitive interface for creating customized workouts according to each user\'s needs.',

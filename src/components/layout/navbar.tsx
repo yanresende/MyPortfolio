@@ -32,6 +32,7 @@ export default function Navbar({
             projetos: t('nav.projects'),
             videos: t('nav.videos'),
             artigos: t('nav.articles'),
+            curriculo: t('nav.curriculum'),
             experiencia: t('nav.experience'),
             contato: t('nav.contact'),
         }
