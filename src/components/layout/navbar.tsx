@@ -9,7 +9,7 @@ import Image from "next/image"
 import { cn } from "@/lib/utils"
 import { useLanguage } from "@/contexts/language-context"
 import LanguageSelector from "@/components/ui/language-selector"
-import profilePhotoSmall from "../../../public/logos/favicon-jm.jpeg"
+import profilePhotoSmall from "../../../public/logos/favicon-yr.png"
 
 type SectionLink = { id: string; label: string }
 

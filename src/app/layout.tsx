@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
-import profilePhotoSmall from "../../public/logos/favicon-jm.jpeg";
+import profilePhotoSmall from "../../public/logos/favicon-yr.png";
 import { LanguageProvider } from "@/contexts/language-context"; // ✅ MANTIDO!
 
 // Fontes originais (mantidas)

@@ -13,7 +13,7 @@ import BackToTop from "@/components/layout/back-to-top"
 import HeroSection from "@/components/sections/hero-section"
 import ProjectsSection from "@/components/sections/projects-section"
 {/*import VideosSection from "@/components/sections/videos-section"*/}
-import ArticlesSection from "@/components/sections/articles-section"
+{/*import ArticlesSection from "@/components/sections/articles-section"*/}
 import ExperienceSection from "@/components/sections/experience-section"
 import ContactSection from "@/components/sections/contact-section"
 import FooterSection from "@/components/sections/footer-section"
@@ -21,8 +21,6 @@ import FooterSection from "@/components/sections/footer-section"
 const sections = [
     { id: "sobre", label: "Sobre" },
     { id: "projetos", label: "Projetos" },
-    { id: "videos", label: "Vídeos" },
-    { id: "artigos", label: "Artigos" },
     { id: "experiencia", label: "Experiência" },
     { id: "contato", label: "Contato" },
 ] as const
@@ -103,7 +101,7 @@ export default function Page() {
             <HeroSection sectionRef={refs.sobre?.ref as any} />
             <ProjectsSection sectionRef={refs.projetos?.ref as any} />
             {/*<VideosSection sectionRef={refs.videos?.ref as any} />*/}
-            <ArticlesSection sectionRef={refs.artigos?.ref as any} />
+            {/*<ArticlesSection sectionRef={refs.artigos?.ref as any} />*/}
             <ExperienceSection sectionRef={refs.experiencia?.ref as any} />
             <ContactSection sectionRef={refs.contato?.ref as any} />
 

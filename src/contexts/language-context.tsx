@@ -32,7 +32,7 @@ const translations = {
         'hero.view.projects': 'Ver projetos',
         'hero.contact': 'Entrar em contato',
         'hero.puc.course': 'Engenharia de Software',
-        'hero.m2c.role': 'Desenvolvedor FullStack',
+        'hero.ebac.role': 'Desenvolvedor FullStack Java',
 
         // Projects Section
         'projects.title': 'Projetos',
@@ -113,7 +113,7 @@ const translations = {
         'contact.social.email': 'E-mail',
 
         // Footer
-        'footer.developer': 'Desenvolvedor • M2C Digital',
+        'footer.developer': 'Desenvolvedor Full Stack Java • Ebac',
         'footer.student': 'Engenharia de Software • PUC Minas',
         'footer.rights': 'Todos os direitos reservados.',
 
@@ -147,11 +147,11 @@ const translations = {
 
         // Hero Section
         'hero.badge': 'Hello, I am',
-        'hero.description': 'Software Engineering student at PUC Minas and full-stack developer at M2C Digital. Passionate about programming, optimization and modern web application design. Always seeking to learn and share knowledge.',
+        'hero.description': 'Software Engineering student at PUC Minas and full-stack developer at EBAC. Passionate about programming, optimization and modern web application design. Always seeking to learn and share knowledge.',
         'hero.view.projects': 'View projects',
         'hero.contact': 'Get in touch',
         'hero.puc.course': 'Software Engineering',
-        'hero.m2c.role': 'FullStack Developer',
+        'hero.ebac.role': 'FullStack Developer',
 
         // Projects Section
         'projects.title': 'Projects',
@@ -232,7 +232,7 @@ const translations = {
         'contact.social.email': 'Email',
 
         // Footer
-        'footer.developer': 'Developer • M2C Digital',
+        'footer.developer': 'Developer Full Stack Java • Ebac',
         'footer.student': 'Software Engineering • PUC Minas',
         'footer.rights': 'All rights reserved.',
 

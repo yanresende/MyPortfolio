@@ -173,7 +173,7 @@ export default function ContactSection({ sectionRef }: ContactSectionProps) {
                                     </Button>
                                     <a
                                         className="text-sm text-violet-300 hover:underline"
-                                        href={`mailto:joaomarcelocpa0303@gmail.com?subject=${encodeURIComponent('Contato pelo portfólio')}&body=${encodeURIComponent('Olá Yan Resende,\n\nGostaria de entrar em contato.\n\nAtenciosamente,\n')}`}
+                                        href={`mailto:yan.resende.pro@gmail.com?subject=${encodeURIComponent('Contato pelo portfólio')}&body=${encodeURIComponent('Olá Yan Resende,\n\nGostaria de entrar em contato.\n\nAtenciosamente,\n')}`}
                                     >
                                         {t('contact.form.email.link')}
                                     </a>
@@ -193,7 +193,7 @@ export default function ContactSection({ sectionRef }: ContactSectionProps) {
                                 className="justify-start border-white/15 text-white hover:bg-white/10 bg-transparent"
                                 asChild
                             >
-                                <a href="https://instagram.com/joaomarcelocpa/" target="_blank" rel="noreferrer">
+                                <a href="https://instagram.com/yanres13/" target="_blank" rel="noreferrer">
                                     <Instagram className="mr-2 h-4 w-4" /> {t('contact.social.instagram')}
                                 </a>
                             </Button>
@@ -202,7 +202,7 @@ export default function ContactSection({ sectionRef }: ContactSectionProps) {
                                 className="justify-start border-white/15 text-white hover:bg-white/10 bg-transparent"
                                 asChild
                             >
-                                <a href="https://github.com/joaomarcelocpa/" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/yanresende/" target="_blank" rel="noreferrer">
                                     <Github className="mr-2 h-4 w-4" /> {t('contact.social.github')}
                                 </a>
                             </Button>
@@ -211,7 +211,7 @@ export default function ContactSection({ sectionRef }: ContactSectionProps) {
                                 className="justify-start border-white/15 text-white hover:bg-white/10 bg-transparent"
                                 asChild
                             >
-                                <a href="https://www.linkedin.com/in/joaomarcelocpa/" target="_blank" rel="noreferrer">
+                                <a href="https://www.linkedin.com/in/yanresendebr/" target="_blank" rel="noreferrer">
                                     <Linkedin className="mr-2 h-4 w-4" /> {t('contact.social.linkedin')}
                                 </a>
                             </Button>
@@ -220,7 +220,7 @@ export default function ContactSection({ sectionRef }: ContactSectionProps) {
                                 className="justify-start border-white/15 text-white hover:bg-white/10 bg-transparent"
                                 asChild
                             >
-                                <a href="mailto:joaomarcelocpa0303@gmail.com">
+                                <a href="mailto:yan.resende.pro@gmail.com">
                                     <Mail className="mr-2 h-4 w-4" /> {t('contact.social.email')}
                                 </a>
                             </Button>
