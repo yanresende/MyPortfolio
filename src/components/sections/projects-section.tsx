@@ -6,6 +6,7 @@ import { useLanguage } from "@/contexts/language-context"
 import logoEasyTraining from '../../../public/projects/logo-easytraining.png'
 import logoDisneyplusTematica from "../../../public/projects/logo-disneyplus-tematica.png"
 import logoContagemNiver from "../../../public/projects/logo-contagem-niver.png"
+import logoMyPortfolio from "../../../public/projects/logo-my-portfolio.png"
 import logoM2CPainel from "../../../public/projects/logo-m2c.png"
 import logoXulambs from "../../../public/projects/logo-xulambs.png"
 import logoHuni from "../../../public/projects/logo-huni.png"
@@ -21,6 +22,7 @@ type Project = {
     tags: string[]
     image: string | StaticImageData
     link?: string
+    github?: string
     details: string
 }
 
@@ -39,6 +41,8 @@ export default function ProjectsSection({ sectionRef }: ProjectsSectionProps) {
             tags: ["Scss", "Html", "JavaScript"],
             image: logoContagemNiver,
             details: t('project.contagem-niver.details'),
+            link: "https://contagem-niver-delta.vercel.app",
+            github: "https://github.com/yanresende/contagem_niver",
         },
         {
             id: "proj-2",
@@ -47,7 +51,19 @@ export default function ProjectsSection({ sectionRef }: ProjectsSectionProps) {
             tags: ["Scss", "Html", "JavaScript"],
             image: logoDisneyplusTematica,
             details: t('project.disneyplus-tematica.details'),
-        }
+            link: "https://landingpage-tematica.vercel.app",
+            github: "https://github.com/yanresende/landingpage_tematica",
+        },
+        {
+            id: "proj-3",
+            title: "My portfolio",
+            description: t('project.my-portfolio.description'),
+            tags: ["React.js", "Next.js", "TypeScript"],
+            image: logoMyPortfolio,
+            details: t('project.my-portfolio.details'),
+            link: "https://my-portfolio-lac-seven-28.vercel.app",
+            github: "https://github.com/yanresende/MyPortfolio",
+        },
 
     ]
 

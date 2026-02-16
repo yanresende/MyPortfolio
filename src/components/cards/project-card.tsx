@@ -16,6 +16,7 @@ type Project = {
     tags: string[]
     image: string | StaticImageData
     link?: string
+    github?: string
     details: string
 }
 
@@ -201,6 +202,25 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                                                 <a href={project.link} target="_blank" rel="noreferrer">
                                                     <ExternalLink className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform duration-200" />
                                                     {t('projects.view.project')}
+                                                    <ArrowUpRight className="ml-2 h-4 w-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
+                                                </a>
+                                            </Button>
+                                        </motion.div>
+                                    )}
+                                    {/* Botão de ação */}
+                                    {project.github && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: 0.45, duration: 0.4 }}
+                                        >
+                                            <Button
+                                                asChild
+                                                className="w-full bg-gradient-to-r from-violet-600 to-violet-600 hover:from-violet-700 hover:to-violet-700 text-white font-semibold py-2.5 px-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-violet-500/25 group text-sm"
+                                            >
+                                                <a href={project.github} target="_blank" rel="noreferrer">
+                                                    <ExternalLink className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform duration-200" />
+                                                    {t('projects.view.code')}
                                                     <ArrowUpRight className="ml-2 h-4 w-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
                                                 </a>
                                             </Button>
