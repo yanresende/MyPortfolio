@@ -7,6 +7,7 @@ import logoEasyTraining from '../../../public/projects/logo-easytraining.png'
 import logoDisneyplusTematica from "../../../public/projects/logo-disneyplus-tematica.png"
 import logoContagemNiver from "../../../public/projects/logo-contagem-niver.png"
 import logoMyPortfolio from "../../../public/projects/logo-my-portfolio.png"
+import logoLmmAdvocacia from "../../../public/projects/logo-lmm-advocacia.png"
 import logoM2CPainel from "../../../public/projects/logo-m2c.png"
 import logoXulambs from "../../../public/projects/logo-xulambs.png"
 import logoHuni from "../../../public/projects/logo-huni.png"
@@ -63,6 +64,15 @@ export default function ProjectsSection({ sectionRef }: ProjectsSectionProps) {
             details: t('project.my-portfolio.details'),
             link: "https://my-portfolio-lac-seven-28.vercel.app",
             github: "https://github.com/yanresende/MyPortfolio",
+        },
+        {
+            id: "proj-4",
+            title: "LMM Advocacia",
+            description: t('project.lmm-advocacia.description'),
+            tags: ["React.js", "Next.js", "TypeScript"],
+            image: logoLmmAdvocacia,
+            details: t('project.lmm-advocacia.details'),
+            link: "https://lmmadvocacia.pro",
         },
 
     ]

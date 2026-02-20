@@ -58,6 +58,9 @@ const translations = {
         'project.my-portfolio.description': 'Meu portfólio pessoal, apresentando meus projetos, vídeos, artigos e experiência.',
         'project.my-portfolio.details': 'Meu portfólio pessoal, desenvolvido com React.js e Next.js, apresentando meus projetos, vídeos, artigos e experiência de forma organizada e visualmente atraente. O site é responsivo e otimizado para uma excelente experiência do usuário em diferentes dispositivos.',
 
+        'project.lmm-advocacia.description': 'Site institucional para a advocacia LMM.',
+        'project.lmm-advocacia.details': 'Site institucional completo para a advocacia LMM apresentando os serviços, equipe e informações importantes da empresa. O site é responsivo e otimizado para uma excelente experiência do usuário em diferentes dispositivos.',
+        
         // Videos Section
         'videos.title': 'Vídeos',
         'videos.description': 'Meu conteúdo produzido no YouTube:',
@@ -164,6 +167,9 @@ const translations = {
 
         'project.my-portfolio.description': 'My personal portfolio, showcasing my projects, videos, articles and experience.',
         'project.my-portfolio.details': 'My personal portfolio, developed with React.js and Next.js, showcasing my projects, videos, articles and experience in an organized and visually appealing way. The site is responsive and optimized for an excellent user experience across different devices.',
+
+        'project.lmm-advocacia.description': 'Institutional website for LMM advocacy.',
+        'project.lmm-advocacia.details': 'Complete institutional website for LMM advocacy presenting the company\'s services, team and important information. The site is responsive and optimized for an excellent user experience across different devices.',
 
         // Videos Section
         'videos.title': 'Videos',
